@@ -8,6 +8,7 @@
   --hero-title-white: #ffffff;
   --third-text-color: #ffffff;
   --footer-contacts-color: rgba(255, 255, 255, 0.6);
+  --bcg-color-items: #f5f4fa;
 }
 
 body {
@@ -102,9 +103,10 @@ body {
   line-height: 1.88;
   text-align: center;
   letter-spacing: 0.06em;
-  color: #ffffff;
+  color: var(--third-text-color);
   background-color: var(--color-accent);
   border: none;
+  cursor: pointer;
 }
 
 .hero-button:hover,
@@ -124,15 +126,14 @@ body {
 }
 
 .features-text {
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
 }
 
-/* -----WORK----- */
+/* -----EXAMPLES----- */
 
-.work-title {
+.examples-title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
@@ -144,7 +145,7 @@ body {
 /* -----TEAM----- */
 
 .team {
-  background-color: #f5f4fa;
+  background-color: var(--bcg-color-items);
 }
 
 .team-item {
@@ -219,4 +220,45 @@ body {
 .footer-tel:hover,
 .footer-tel:focus {
   color: var(--color-accent);
+}
+
+/* -----Portfolio.html page----- */
+
+/* -----HEADER----- */
+
+/* -----WORK----- */
+
+.work-filters-btn {
+  font-family: inherit;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--secondary-text-color);
+  background-color: var(--bcg-color-items);
+  border: none;
+  cursor: pointer;
+}
+
+.work-filters-btn:hover,
+.work-filters-btn:focus {
+  color: var(--third-text-color);
+  background-color: var(--color-accent);
+}
+
+.work-name {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--main-title-color);
+}
+
+.work-text {
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.03em;
+  color: var(--primery-text-color);
 }
