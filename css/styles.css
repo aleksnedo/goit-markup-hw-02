@@ -53,8 +53,8 @@ body {
 .header-link {
   font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
-  letter-spacing: 1.14;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
   color: var(--secondary-text-color);
 }
 
@@ -66,7 +66,7 @@ body {
 .header-tel {
   font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--primery-text-color);
 }
@@ -171,7 +171,6 @@ body {
 }
 
 .team-position {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.18;
   text-align: center;
@@ -191,12 +190,11 @@ body {
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
-  color: #ffffff;
+  color: var(--third-text-color);
 }
 
 .footer-map-address {
   font-style: normal;
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -206,7 +204,6 @@ body {
 .footer-mail,
 .footer-tel {
   font-style: normal;
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -223,8 +220,6 @@ body {
 }
 
 /* -----Portfolio.html page----- */
-
-/* -----HEADER----- */
 
 /* -----WORK----- */
 
